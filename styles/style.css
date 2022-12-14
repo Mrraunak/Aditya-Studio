@@ -1,0 +1,27 @@
+.body1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: transparent;
+    z-index: 99999999999;
+    width: 100%
+}
+
+.body1-1 {
+    height: 100%;
+    background: purple;
+    transition: all 500ms ease;
+    width: 0%
+}
+
+.body1-1-1 {
+    height: 100%;
+    background: purple;
+    transition: all 500ms ease;
+    width: 0%
+}
+
+.body2 {
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%)
+}

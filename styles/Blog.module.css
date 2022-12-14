@@ -1,0 +1,75 @@
+.bodyStyle1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: transparent;
+    z-index: 99999999999;
+    width: 100%
+}
+
+.bodyStyle2 {
+    height: 100%;
+    background: purple;
+    transition: all 500ms ease;
+    width: 0%
+}
+
+.bodyStyle3 {
+    box-shadow: 0 0 10px purple, 0 0 10px purple;
+    width: 5%;
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    transition: all 500ms ease;
+    transform: rotate(3deg) translate(0px, -4px);
+    left: -10rem
+}
+
+.bodyStyle4 {
+    height: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+
+/* Blog Post Css */
+
+#panels p {
+    font-size: 1.15rem;
+}
+
+#panels h4,
+h2,
+h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 16px 0px;
+}
+
+#panels ul,
+menu {
+    list-style-type: disc;
+    margin: 1em 0;
+    font-size: 1.15rem;
+    padding: 0 0 0 40px;
+}
+
+#panels ol {
+    list-style-type: decimal;
+    margin: 1em 0;
+    font-size: 1.15rem;
+    padding: 0 0 0 40px;
+}
+
+.postStyle {
+    height: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+
+/* Blogpost Style End */
+
+
+/* Slug Styles */

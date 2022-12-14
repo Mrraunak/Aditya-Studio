@@ -1,0 +1,31 @@
+.style1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: transparent;
+    z-index: 99999999999;
+    width: 100%
+}
+
+.style2 {
+    height: 100%;
+    background: purple;
+    transition: all 500ms ease;
+    width: 0%
+}
+
+.style3 {
+    box-shadow: 0 0 10px purple, 0 0 10px purple;
+    width: 5%;
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    transition: all 500ms ease;
+    transform: rotate(3deg) translate(0px, -4px);
+    left: -10rem
+}
+
+.backStyle {
+    background-image: url('/img/msBuild1.png')
+}
